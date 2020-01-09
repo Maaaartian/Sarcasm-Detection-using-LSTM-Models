@@ -2,7 +2,8 @@
 Using Long Short-Term Memory(LSTM) models to find out sarcastic contents in texts.
 
 # Datasets
-A subset of Prinston's SARC 2.0 corpus for sarcasm detection with size of 100,000 samples. (Reference: nlp.cs.princeton.edu/SARC/2.0/)  
+A subset of Prinston's SARC 2.0 corpus for sarcasm detection with size of 100,000 samples.  
+(Reference: nlp.cs.princeton.edu/SARC/2.0/)  
 With the project's focus on the influence of conversational context, only 'label', 'comment' and 'parent_comment' columns are saved ('author' column is also saved but actually not used).  
  - train.csv: training set with size of 80,000 samples.  
  - val.csv: validation set with size of 10,000 samples.  
